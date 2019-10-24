@@ -9,7 +9,7 @@
 			// buoc 1 xem slide nao dang hien thi
 
 			autoSlide();
-		},3000);
+		},5000);
 
 
 	for( var i = 0; i < nut.length; i++){

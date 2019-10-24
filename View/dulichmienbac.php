@@ -10,8 +10,190 @@
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
-<body>
-	<?php include'header.php'; ?>
+<body class="body">
+	<div class="khoiheader">	
+		<nav class="navbar navbar-expand-lg navbar-dark info-color khoinav ">
+			<div class="header">
+				<div class="trai">
+					<li class="nav-item hotline">
+						<a class="nav-link" href="#">
+							<span class="textnavbar">Hotline: <span>0989000410</span></span>
+						</a>
+					</li>
+				</div>
+
+
+				<div class="phai">
+					<ul class="navbar-nav ml-auto dsphai">
+
+						<li class="nav-item">
+							<a class="nav-link theasearch" href="#">
+								<div class="input-group nutsearch">
+									<input type="search" ng-model="searchName" placeholder="Search">
+								</div>
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<img src="images/line.png" alt="">
+						</li>
+
+						<li class="nav-item active">
+							<a class="nav-link" href="#">
+								<i class="fas fa-shopping-cart textnavbar"></i>
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<img src="images/line.png" alt="">
+						</li>
+
+						<li class="nav-item dropdown user">
+							<a class="nav-link dropdown-toggle _1user" data-toggle="dropdown">
+								<span class="textnavbar">USER</span>
+								<img src="images/avatar.svg" alt="">
+							</a>
+							<div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+								<a class="dropdown-item textnavbar" href="#">My account</a>
+								<a class="dropdown-item textnavbar" href="#">Log out</a>
+							</div>
+						</li>
+
+						<li class="nav-item">
+							<img src="images/line.png" alt="">
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								<img src="images/vn.png" alt="">
+								<i class="textnavbar">VN</i>
+							</a>
+						</li>
+					</ul>
+				</div> <!-- hết header phai -->
+			</div> <!-- hết container -->
+		</nav> <!-- hết nav -->
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light navmaxwidth">
+
+			<div class="togglediv">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse colapp" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto dsheaderduoi ">
+
+						<li class="nav-item ndheaderduoi active dropdown">
+							<a class="nav-link dropdown-toggle mautextnav" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Du lịch<span class="sr-only">(current)</span>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item borderbot" href="#">Hùng vĩ miền Bắc</a>
+								<a class="dropdown-item borderbot" href="#">Nắng gió miền Trung</a>
+								<a class="dropdown-item" href="#">Sông nước miền Nam</a>
+							</div>
+						</li>
+						<li class="nav-item ndheaderduoi">
+							<a class="nav-link mautextnav" href="#">Khách sạn</a>
+						</li>
+						<li class="nav-item ndheaderduoi">
+							<a class="nav-link mautextnav" href="#">Liên hệ</a>
+						</li>
+						<li class="nav-item ndheaderduoi">
+							<a class="nav-link mautextnav" href="#">Book tour</a>
+						</li>
+					</ul>
+				</div>
+			</div> <!-- hêt toggle div -->
+
+			<div class="trai">
+				<li class="nav-item hotline">
+					<a class="nav-link logotravel" href="#">
+						<span class="">502-Travel.vn</span>
+					</a>
+				</li>
+			</div>
+
+		</nav>
+
+		<nav class="navbar navbar-light navduoi ">
+			<div class="container header">
+				
+				<button class="navbar-toggler hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+				</button>
+
+				<div class="trai">
+					<li class="nav-item hotline">
+						<a class="nav-link logotravel" href="#">
+							<span class="">502-Travel.vn</span>
+						</a>
+					</li>
+				</div>
+
+				<div class="collapse navbar-toggleable-xs phai" id="exCollapsingNavbar2">
+					<ul class="nav navbar-nav float-sm-right text-xs-center text-xs-right dsheaderduoi">
+						<li class="nav-item active ndheaderduoi">
+							<a class="nav-link " href="#">Du lịch <span class="sr-only">(current)</span></a>
+							<div class="gnl_inner"> 
+								<div class="global_inner" id="navmore"> 
+									<ul> 
+										<li class=""> 
+											<a href="#" class="noafter"> 
+												<span>Hùng vĩ miền Bắc</span> 
+											</a> 
+										</li> 
+										<li class=""> 
+											<a href="#" class="noafter"> 
+												<span>Nắng gió miền Trung</span> 
+											</a> 
+										</li> 
+										<li class=""> 
+											<a href="#" class="noafter"> 
+												<span>Sông nước miền Nam</span> 
+											</a> 
+										</li> 
+									</ul> 
+								</div> 
+							</div> 
+						</li>
+						<li class="nav-item ndheaderduoi">
+							<a class="nav-link" href="#">Khách sạn</a>
+						</li>
+						<li class="nav-item ndheaderduoi">
+							<a class="nav-link" href="#">Vận chuyển</a>
+							<div class="gnl_inner"> 
+								<div class="global_inner" id="navmore"> 
+									<ul> 
+										<li class=""> 
+											<a href="#" class="noafter"> 
+												<span>Thuê xe</span> 
+											</a> 
+										</li> 
+										<li class=""> 
+											<a href="#" class="noafter"> 
+												<span>Đặt vé máy bay</span> 
+											</a> 
+										</li> 
+									</ul> 
+								</div> 
+							</div> 
+						</li>
+						<li class="nav-item ndheaderduoi">
+							<a class="nav-link" href="#">Tin tức</a>
+						</li>
+						<li class="nav-item ndheaderduoi">
+							<a class="nav-link" href="#">khuyến mại</a>
+						</li>
+						<li class="nav-item ndheaderduoi">
+							<a class="nav-link" href="#">liên hệ</a>
+						</li>
+					</ul>
+				</div>
+			</div> <!-- hết container -->
+		</nav><!--  hết nav -->
+
+	</div>
 
 	<div id="vnt-content">
 		<div id="vnt-navation" class="breadcrumb">
@@ -122,11 +304,6 @@
 								</em>ngay bên dưới:
 							</span>
 						</div>
-
-						<!-- <div style="text-align: justify;">&nbsp;</div>           -->
-						<span style="clear:both; float: right; margin: 10px 0; color: orange; cursor: pointer;" id="xemthem" data-id="143" data-table="category">Xem thêm 
-							<i class="fa fa-angle-double-right"></i>
-						</span>
 					</div>
 				</div>
 			</div>
@@ -144,7 +321,7 @@
 						<div class="col-sm-4">
 							<div class="oneuser">
 								<div class="imguser text-xs-center">
-									<img src="images/qg1.jpg" alt="">
+									<img src="images/nhatrang1.jpg" alt="">
 									<h4 class="ten">Nha Trang</h4>
 									<i class="vitri">Tháp Ép-phen</i>
 								</div>
@@ -176,7 +353,7 @@
 						<div class="col-sm-4">
 							<div class="oneuser">
 								<div class="imguser text-xs-center">
-									<img src="images/qg2.jpg" alt="">
+									<img src="images/ninhbinh.jpg" alt="">
 									<h4 class="ten">Ninh Bình</h4>
 									<i class="vitri">Tràng An</i>
 								</div>
@@ -208,7 +385,7 @@
 						<div class="col-sm-4">
 							<div class="oneuser">
 								<div class="imguser text-xs-center">
-									<img src="images/qg3.jpg" alt="">
+									<img src="images/bavi.png" alt="">
 									<h4 class="ten">Ba Vì</h4>
 									<i class="vitri">Thỉnh Kinh</i>
 								</div>
@@ -308,116 +485,137 @@
 					</div>
 				</div>
 			</div> <!-- hết noidung3 -->
+		</div> <!-- HẾT wrapCont -->
+	</div>
+	<div class="khoifooter">
+		<div class="container ">
+			<div class="row">
+				<div class="col-sm-12 linefooter">
+					<img src="images/line-bot.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="container ">
+			<div class="mainft">
+				<div class="tdft thongtinfooter">
+					<h2>Liên hệ</h2>
+					<p class="ppp">56 Triều Khúc-Hà Nội</p>
+					<p><i class="fas fa-envelope-open-text iconnho"></i> Email: ducky173099@gmail.com</p>
+					<p><i class="fas fa-phone-volume iconnho"></i> Hotline: 0989000410</p>
+					<div class="gg-map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.1957565648145!2d105.80015872085212!3d20.98478874489245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acc6bdc7f95f%3A0x58ffc66343a45247!2sUniversity%20of%20Transport%20Technology!5e0!3m2!1sen!2s!4v1570459833113!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+				</div>
+				<div class="tdft ft_ttmain">
+					<h2>Thông tin</h2>
+					<div class="tt_footerinner">
+						<div class="tt_ft1">Tạp chí du lịch</div>
+						<div class="tt_ft2">Tin tức</div>
+					</div>
+					<div class="tt_footerinner">
+						<div class="tt_ft1">Cẩm nang du lịch</div>
+						<div class="tt_ft2">Sitemap</div>
+					</div>
+					<div class="tt_footerinner">
+						<div class="tt_ft1">Kinh nghiệm du lịch</div>
+						<div class="tt_ft2">FAQ</div>
+					</div>
+					<div class="line_inner">
+						<img src="images/ft-line.png" alt="">
+					</div>
+					<ul class="list_chinhsach">
+						<li>
+							<a href="#">502-Travel Toolbar</a>
+						</li>
+						<li>
+							<a href="#">chính sách riêng tư</a>
+						</li>
+						<li>
+							<a href="#">Thỏa thuận sử dụng</a>
+						</li>
+					</ul>
+				</div>
 
-			<div class="khoifooter">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12 linefooter">
-								<img src="images/line-bot.png" alt="">
-							</div>
+				<div class="tdft form_ft">
+					<h2>NEWSLETTER</h2>
+					<div class="newsletter">
+						<input type="text" class="form-control input-md" placeholder="email của bạn">
+						<div class="iconemail_ft">
+							<button type="submit">
+								<i class="far fa-envelope"></i>
+							</button>
 						</div>
 					</div>
-					<div class="container">
-						<div class="mainft">
-							<div class="tdft thongtinfooter">
-								<h2>Liên hệ</h2>
-								<p class="ppp">56 Triều Khúc-Hà Nội</p>
-								<p><i class="fas fa-envelope-open-text iconnho"></i> Email: ducky173099@gmail.com</p>
-								<p><i class="fas fa-phone-volume iconnho"></i> Hotline: 0989000410</p>
-								<div class="gg-map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.1957565648145!2d105.80015872085212!3d20.98478874489245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acc6bdc7f95f%3A0x58ffc66343a45247!2sUniversity%20of%20Transport%20Technology!5e0!3m2!1sen!2s!4v1570459833113!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-							</div>
-							<div class="tdft ft_ttmain">
-								<h2>Thông tin</h2>
-								<div class="tt_footerinner">
-									<div class="tt_ft1">Tạp chí du lịch</div>
-									<div class="tt_ft2">Tin tức</div>
-								</div>
-								<div class="tt_footerinner">
-									<div class="tt_ft1">Cẩm nang du lịch</div>
-									<div class="tt_ft2">Sitemap</div>
-								</div>
-								<div class="tt_footerinner">
-									<div class="tt_ft1">Kinh nghiệm du lịch</div>
-									<div class="tt_ft2">FAQ</div>
-								</div>
-								<div class="line_inner">
-									<img src="images/ft-line.png" alt="">
-								</div>
-								<ul class="list_chinhsach">
-									<li>
-										<a href="#">502-Travel Toolbar</a>
-									</li>
-									<li>
-										<a href="#">chính sách riêng tư</a>
-									</li>
-									<li>
-										<a href="#">Thỏa thuận sử dụng</a>
-									</li>
-								</ul>
-							</div>
-
-							<div class="tdft form_ft">
-								<h2>NEWSLETTER</h2>
-								<div class="newsletter">
-									<input type="text" class="form-control input-md" placeholder="email của bạn">
-									<div class="iconemail_ft">
-										<button type="submit">
-											<i class="far fa-envelope"></i>
-										</button>
-									</div>
-								</div>
-								<h2 class="tenstore">Ứng dụng di động</h2>
-								<div class="appstore ppp">
-									<img src="images/app.png" alt="">
-								</div>
-								<h2 class="tenstore">Hotline</h2>
-								<div class="hl_ft">
-									<div class="iconhl_ft">
-										<button>
-											<i class="fas fa-headset"></i>
-										</button>
-									</div>
-									<div class="sdt_ft">
-										<span class="sdt_ft_inner">0989000410</span>
-										<span>từ 8h đến 23h</span>
-									</div>
-								</div>
-							</div>
-
+					<h2 class="tenstore">Ứng dụng di động</h2>
+					<div class="appstore ppp">
+						<img src="images/app.png" alt="">
+					</div>
+					<h2 class="tenstore">Hotline</h2>
+					<div class="hl_ft">
+						<div class="iconhl_ft">
+							<button>
+								<i class="fas fa-headset"></i>
+							</button>
 						</div>
-						<div class="tdft thanhtoan_ft">
-							<h2>Chấp nhận thanh toán</h2>
-							<div>
-								<div class="ttcard_ft">
-									<i class="_123pay"></i>
-								</div>
-								<div class="ttcard_ft">
-									<i class="visa"></i>
-								</div>
-								<div class="ttcard_ft">
-									<i class="master"></i>
-								</div>
-								<div class="ttcard_ft">
-									<i class="jcb"></i>
-								</div>
-								<div class="ttcard_ft">
-									<i class="vnpay"></i>
-								</div>
-								<div class="ttcard_ft">
-									<i class="v-visa"></i>
-								</div>
-							</div>
+						<div class="sdt_ft">
+							<span class="sdt_ft_inner">0989000410</span>
+							<span>từ 8h đến 23h</span>
 						</div>
 					</div>
-					<div class="pos_ft">
-						<p class="text-center">Bản quyền của 502-Travel ® 2019. Bảo lưu mọi quyền. <br>Ghi rõ nguồn "www.502-Travel.com.vn" ® khi sử dụng lại thông tin từ website này. <br>Số giấy phép kinh doanh lữ hành Quốc tế: 10-234/2019/TCDL-GP LHQT</p>
+				</div>
+
+			</div>
+			<div class="tdft thanhtoan_ft">
+				<h2>Chấp nhận thanh toán</h2>
+				<div>
+					<div class="ttcard_ft">
+						<i class="_123pay"></i>
+					</div>
+					<div class="ttcard_ft">
+						<i class="visa"></i>
+					</div>
+					<div class="ttcard_ft">
+						<i class="master"></i>
+					</div>
+					<div class="ttcard_ft">
+						<i class="jcb"></i>
+					</div>
+					<div class="ttcard_ft">
+						<i class="vnpay"></i>
+					</div>
+					<div class="ttcard_ft">
+						<i class="v-visa"></i>
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="pos_ft ">
+			<p class="text-center">Bản quyền của 502-Travel ® 2019. Bảo lưu mọi quyền. <br>Ghi rõ nguồn "www.502-Travel.com.vn" ® khi sử dụng lại thông tin từ website này. <br>Số giấy phép kinh doanh lữ hành Quốc tế: 10-234/2019/TCDL-GP LHQT</p>
+		</div>
 	</div>
-	</div> <!-- HẾT wrapCont -->
+
+	<div class="navbar-fixed-bottom fixxbot">
+		<a href="" class="btn btn-primary nutlen float-xs-right">
+			<i class="fa fa-chevron-up "></i>
+		</a>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			$('.body').scroll(function(event) {
+				if($('.body').scrollTop() > 350){
+					$('.nutlen').addClass('hienthi');
+				} else if($('.body').scrollTop() <= 190){
+					$('.nutlen').removeClass('hienthi');
+				}
+
+			})
+
+			$('.nutlen').click(function(event) {
+				$('.body').animate({'scrollTop':0})
+				return false;
+			});
+		})  
+	</script>
 </body>
 </html>
 
